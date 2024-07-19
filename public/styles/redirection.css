@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgba(134, 123, 140, 0.1);
+    font-family: "Kanit", sans-serif;
+
+
+}
+
+h1{
+    margin:0;
+}
+
+.inner-container{
+    width:600px;
+    transform: translate(-50%, -50%);
+    top:50%;
+    position:fixed;
+    left:50%;
+    background-color:white;
+    padding:50px;
+    box-sizing: border-box;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.inner-container img{
+    height:100px;
+    display:block;
+    margin:auto;
+   
+}
+
+.content-container{
+    text-align: center;
+}
+
+.content-container h1{
+    margin-bottom: 7px; 
+}
+.content-container h4{
+    margin-top:0px;
+}
+
+.name{
+    color:grey;
+    margin-top:0;
+    margin-bottom:0px;
+    font-size:22px;
+}
+
+@media (max-width:622px){
+    .inner-container{
+        width:500px;
+
+}
+}
+
+@media (max-width:510px){
+    .inner-container{
+        width:400px;
+        height: fit-content;
+
+}
+.content-container h1{
+    font-size: 24px;
+}
+}
+
+

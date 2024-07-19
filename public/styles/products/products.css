@@ -1,0 +1,34 @@
+
+.main-container{
+    padding:40px;
+}
+
+.product-container{
+    background-color:rgb(134,123,140,0.1);
+    margin-bottom:20px;
+    color:black;
+    padding:60px;
+}
+.product-container:hover{
+    color:white;
+    background-color: rgb(22,22,22);
+    cursor:pointer;
+}
+
+.heading{
+    margin-bottom:20px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.heading img{
+    height:50px;
+}
+.main-heading{
+    font-size: 30px;
+    color:grey;
+    
+}

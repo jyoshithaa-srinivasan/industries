@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.nav-container {
+
+    background-color: white;
+    display: flex;
+    padding: 2vh 5vw;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.nav-right-section {
+    padding: 0;
+
+}
+
+.nav-right-section-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav-element-link {
+    cursor: pointer;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+
+
+}
+
+.nav-element:hover {
+    opacity: color 0.5;
+}
+
+
+.dropdown-button {
+    display: none;
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1000;
+    padding: 3px 8px;
+    border: none;
+    background-color: rgb(22, 22, 22, 0);
+
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: none;
+
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.active-link {
+    color: rgb(142, 136, 136)
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.883);
+    color: white;
+    opacity: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media (min-width:768px) {
+    .nav-element {
+        display: inline-block;
+    }
+
+    .nav-right-section {
+        width: 60%;
+    }
+
+
+    @media (max-width:900px) {
+        .nav-right-section-list {
+            font-size: 18px;
+        }
+
+
+    }
+
+    @media (max-width:1180px) {
+        .nav-right-section {
+            width: 60%;
+
+        }
+
+
+    }
+
+
+}
+
+@media (max-width:1000px) {
+    .nav-right-section {
+        display: none;
+    }
+
+    .nav-left-section {
+        margin: auto;
+    }
+
+    .dropdown-button {
+        display: block;
+    }
+
+    .logo-container img {
+        height: 40px;
+    }
+
+
+
+}
+
+.nav-bgColor {
+    background-color: rgb(22, 22, 22);
+    transition: all 0.01s;
+}

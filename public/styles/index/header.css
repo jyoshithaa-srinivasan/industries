@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+
+.header-container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+
+}
+
+.image-container {
+    width: 100vw;
+    min-height: 70vh;
+    flex: 1;
+
+
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+
+}
+
+.hero-heading-container {
+    flex: 1;
+    background-color: rgb(22, 22, 22);
+
+}
+
+.outer-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-heading-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 0.666666666666664%;
+    /* max-width: 60.66666666666666%; */
+    max-width: 80%;
+
+}
+
+.hero-grid-cell {
+    color: black;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    word-wrap: break-word;
+    letter-spacing: normal;
+
+}
+
+.header-one {
+    font-size: 28px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.subhead {
+    font-size: 28px;
+}
+
+@media(max-width:986px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .hero-heading-grid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin: auto;
+    }
+
+
+}
+
+@media(max-width:1060px) {
+    .image-container {
+        flex: 1.2;
+
+    }
+
+    .hero-heading-container {
+        flex: 1;
+
+    }
+
+    .hero-heading-grid {
+        max-width: 90%;
+    }
+
+}
+
+.solutions-grid-cell {
+    width: 80%;
+}
+
+.solutions-container {
+    background-color: white;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+
+}
+
+@media (max-width:768px) {
+
+    .header-one {
+        white-space: pre-line;
+    }
+
+    .solutions-grid-cell {
+        width: 100%;
+    }
+
+    .header-container {
+        height: 95vh;
+    }
+}
+
+.solutions-container:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.solutions-link {
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+.solutions-link:hover {
+    opacity: 1;
+}
+
+@media (max-width:986px) {
+    .image-container {
+        min-height: 0vh;
+        margin-bottom: -4px;
+    }
+
+    .hero-img {
+        object-fit: cover;
+
+    }
+
+    .header-one {
+        font-size: 30px;
+
+
+
+    }
+
+    .subhead {
+        font-size: 26px;
+    }
+
+
+
+}
+
+@media (max-height:510px) {
+    .header-container {
+        height: auto;
+    }
+}
