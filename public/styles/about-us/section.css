@@ -116,17 +116,12 @@
 
     .section-heading {
         margin-right: 0;
+       
 
     }
 
 }
 
-@media(max-width:768px) {
-    .section-heading {
-        font-size: 16px;
-    }
-
-}
 
 @media(max-width:922px) {
     .main-container {
@@ -145,4 +140,19 @@
         column-gap: 0px;
         row-gap: 60px;
     }
+    
+        
+    
+}
+
+@media(max-width:500px){
+  
+        .section-heading h1 {
+            font-size: 25px;
+        }
+
+        .section-content{
+            font-size:16px;
+        }
+     
 }
