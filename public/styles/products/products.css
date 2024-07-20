@@ -47,3 +47,10 @@
     color:black;
     
 }
+
+@media(max-width:768px){
+    .main-heading{
+        font-size:16px;
+    }
+    
+}

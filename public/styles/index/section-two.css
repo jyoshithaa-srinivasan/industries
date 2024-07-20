@@ -81,3 +81,9 @@
 
 
 }
+
+@media(max-width:768px){
+  .tackle-content{
+    font-size: 15px;
+  }
+}

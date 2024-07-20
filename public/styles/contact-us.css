@@ -38,7 +38,7 @@ body {
 }
 
 .contact-form h1,
-.contact-form h3 {
+.contact-form h2 {
     text-align: center;
 }
 
@@ -93,5 +93,15 @@ input:focus {
 @media(max-width:768px) {
     .contact-form {
         width: 100%;
+    }
+
+    .contact-form h2{
+        font-size:20px;
+    }
+
+    .submit:hover {
+        opacity: 0.8;
+        transform: scale(1.01);
+
     }
 }

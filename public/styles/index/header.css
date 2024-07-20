@@ -126,6 +126,7 @@ body {
 
     .header-one {
         white-space: pre-line;
+        font-size:20px;
     }
 
     .solutions-grid-cell {
@@ -140,7 +141,7 @@ body {
 .solutions-container:hover {
     cursor: pointer;
     background-color: rgb(233, 233, 233);
-    transform:scale(1.1);
+    transform:scale(1.01);
     font-size:16px;
 
 }
