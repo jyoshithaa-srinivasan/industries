@@ -33,6 +33,7 @@ a:hover {
     left: 0;
     right: 0;
     z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px, rgba(0, 0, 0, 0.5) 0px 6px 6px;
 }
 
 .logo-container {
@@ -56,17 +57,30 @@ a:hover {
     font-size: 20px;
 }
 
+
+
 .nav-element-link {
     cursor: pointer;
     color: black;
     font-weight: 400;
     text-decoration: none;
-
-
+    padding:10px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
-.nav-element:hover {
-    opacity: color 0.5;
+.nav-element-link:hover{
+    font-size:24px;
+    transform: scale(1.2); 
+}
+
+
+
+.nav-element:hover .nav-element-link{
+    color:#5e5a5a;
+    text-decoration:underline;
+    font-size:22px;
+    text-decoration-thickness: 1.5px;
+
 }
 
 
@@ -112,7 +126,10 @@ a:hover {
 }
 
 .active-link {
-    color: rgb(142, 136, 136)
+    color:#5e5a5a;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+
 }
 
 /* Change color of dropdown links on hover */

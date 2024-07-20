@@ -39,10 +39,19 @@ p {
     color: white;
     padding: 15px;
     width: 200px;
+    transition:all 0.3s ease;
+
 }
 
-.help-link:hover {
-    opacity: 0.8;
+.help-link:hover{
+    opacity:0.9;
+}
+
+.help-link:hover .help-link-container{
+    transform:scale(1.1);
+    font-size:16px;
+    
+
 }
 
 /* footer */
@@ -98,11 +107,14 @@ p {
     font-weight: 700;
     border: none;
     width: 150px;
+    transition:all 0.3s ease;
 
 }
 
 .newsletter-container button:hover {
     opacity: 0.9;
+    transform:scale(1.1);
+    font-size:14px;
 }
 
 

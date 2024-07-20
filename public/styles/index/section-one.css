@@ -30,6 +30,8 @@
     color: black;
     margin-bottom: 20px;
     background-color: rgb(134, 123, 140, 0.1);
+    
+
 }
 
 .textlogoContent {
@@ -37,6 +39,11 @@
     box-sizing: border-box;
     font-size: 18px;
     text-align: left;
+
+}
+
+.content{
+    color:#5e5a5a;
 
 }
 

@@ -10,7 +10,7 @@ body{
 }
 
 .block{
-    background-color:black;
+    background-color:rgb(22,22,22);
    
 }
 .wrapper{
@@ -37,7 +37,8 @@ body{
 }
 .col h1{
     color:grey;
-    font-size:50px;
+    color:white;
+    font-size:40px;
     font-family:'Josefin Sans',Arial,sans-serif;
     line-height: 1.1;
     padding:20px;
@@ -54,7 +55,7 @@ body{
     padding-top:100px;
 }
 .col p{
-    color:white;
+    color:darkgray;
     text-align:justify;
     padding:20px; 
 }

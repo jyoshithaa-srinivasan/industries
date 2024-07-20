@@ -23,10 +23,14 @@
   width: 80%;
   text-align: center;
   margin: auto;
-  color: black;
   line-height: 1.5;
   font-weight: 400;
 
+
+}
+
+.tackle-content p{
+  color:#5e5a5a;
 
 }
 

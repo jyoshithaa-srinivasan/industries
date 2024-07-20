@@ -5,14 +5,26 @@
 
 .product-container{
     background-color:rgb(134,123,140,0.1);
+    border:1px solid black;
     margin-bottom:20px;
-    color:black;
     padding:60px;
+    transition: all 0.28s ease-in-out;
+    
+    
+}
+
+.product-container .content p{
+    color:#5e5a5a;
+
 }
 .product-container:hover{
-    color:white;
     background-color: rgb(22,22,22);
     cursor:pointer;
+    transform: scale(1.05); 
+    border:2px solid grey;  
+}
+.product-container:hover .content p,.product-container:hover .heading h3 {
+    color:white;
 }
 
 .heading{
@@ -28,7 +40,10 @@
     height:50px;
 }
 .main-heading{
-    font-size: 30px;
-    color:grey;
+    font-size: 26px;
+    background-color: rgb(134, 123, 140, 0.1);
+    padding:10px;
+    font-family:'Josefin Sans',Arial,sans-serif; ;
+    color:black;
     
 }
