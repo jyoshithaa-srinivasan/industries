@@ -11,9 +11,9 @@ body{
 .slideshow-container{
     position:relative;
     background-color:rgb(22,22,22);
-    height:670px;
     display: flex;
     align-items: center;
+    height:670px;
 
 
     
@@ -68,7 +68,7 @@ body{
 .dot-container{
    
     position:absolute;
-    bottom:30px;
+    bottom:20px;
     left:50%;
     transform: translate(-50%, -50%);
     
@@ -144,6 +144,10 @@ body{
 }
 
 @media(max-width:900px){
+
+    .slideshow-container{
+        height:auto;
+    }
 
     .image-container{
         margin-right: 0;
