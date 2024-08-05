@@ -11,6 +11,9 @@ body{
 .slideshow-container{
     position:relative;
     background-color:rgb(22,22,22);
+    height:670px;
+    display: flex;
+    align-items: center;
 
 
     
@@ -19,6 +22,7 @@ body{
 .mySlides{
     padding:30px;
     display:none;
+
     
 
 }
@@ -26,7 +30,7 @@ body{
 .prev,.next{
     cursor:pointer;
     position:absolute;
-    top:300px;
+    top:50%;
     width:auto;
     padding:16px;
     color:white;
@@ -50,6 +54,7 @@ body{
     display:flex;
     padding:20px;
     justify-content: center;
+    align-items: center;
     
     
 }
